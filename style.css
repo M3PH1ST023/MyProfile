@@ -1,0 +1,120 @@
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+.intro {
+    font-family: "Sofia", sans-serif;
+    padding: 8%;
+    background-color: #cbe4f9;
+    text-align: center;
+    color: #160085;
+    font-size: 35px;
+    text-shadow: 2px 2px white;
+}
+span {
+    color: #ffffff;
+    text-shadow: 2px 2px black;
+}
+.intro .cloud1 {
+    position: relative;
+    top: 10%;
+    right: 10%;
+    height: 70px;
+}
+.cloud2 {
+    position: relative;
+    top: 50%;
+    left: 10%;
+    height: 50px;
+}
+
+.photo {
+    padding: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Alatsi";
+}
+
+.photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid gray;
+}
+.description h2 {
+    color: #160085;
+    font-size: 40px;
+}
+.description p {
+    font-size: 20px;
+    color: #2b99ff;
+}
+hr {
+    width: 60%;
+    background-color: #160085;
+    height: 2px;
+    border: none;
+    opacity: 0.5;
+}
+.stacks {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 8%;
+    font-family: "Alatsi";
+    font-size: 33px;
+    color: #160085;
+    text-align: center;
+}
+.stacks div {
+    font-family: "BioRhyme";
+}
+.stacks div h3 {
+    color: #2b99ff;
+    font-size: 30px;
+}
+.stacks div .stack {
+    display: flex;
+    justify-content: space-around;
+}
+.stack img {
+    padding: 30px;
+    width: 75px;
+    height: 75px;
+}
+footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-color: #160085;
+    color: #2b99ff;
+    align-items: center;
+    text-align: center;
+}
+footer h2 {
+    font-size: 35px;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.links a {
+    font-size: 20px;
+    color: #cbe4f9;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #2b99ff;
+    text-decoration: underline;
+}
